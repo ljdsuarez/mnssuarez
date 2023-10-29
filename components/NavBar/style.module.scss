@@ -1,7 +1,9 @@
+@import '../../app/variables.scss';
+
 .container {
   height: 60px;
   width: 80%;
-  background-color: #ffffff;
+  background-color: $bgColor;
   position: absolute;
   z-index: 2;
   top: 30px;
