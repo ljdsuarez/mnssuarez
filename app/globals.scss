@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'node_modules/locomotive-scroll/dist/locomotive-scroll';
+
+:root {
+  --background: #ffffff;
+  --forebackground: #1e1e1e
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground));
+  background: var(--background)
+}
