@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./style.module.scss";
 
 function index() {
